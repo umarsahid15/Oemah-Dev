@@ -1,0 +1,497 @@
+
+/* Desktop version */
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body {
+    position: relative;
+}
+
+.navbar {
+    position: fixed;
+    background-color:white;
+    width: 100%;
+    line-height: 50px;
+    padding: 10px 0;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+    
+}
+
+.container {
+    padding: 0% 15px;
+    margin: 0% 10%;
+
+}
+
+.nav-brand {
+    padding-left: 10px;
+    font-size: 30px;
+    display: inline-block;
+}
+
+.nav-link {
+    padding-right: 10px;
+    float: right;
+    
+}
+.nav-link a {
+    display: inline-block;
+    margin-left: 10px;
+    padding: 0% 8px;
+    color: black;
+    text-decoration: none;
+}
+
+.nav-link a:hover{
+    color: white;
+    line-height: 50px;
+    background-color: #34495e;
+}
+
+.nav-btn{
+    color: white !important;
+    border-radius: 10px;
+    background: #34495e;
+}
+.welcome {
+    position: relative;
+    z-index: -1;
+    background: url(img/1.jpg);
+    background-size: cover;
+    height: 560px;
+    padding-right: 25px;
+}
+
+.welcome h1 {
+    font-size: 50px;
+    text-align: center;
+    padding-top: 30%;
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+}
+
+.welcome button{
+    position: absolute;
+    right: 48%;
+    border: none;
+    background-color: #3498db;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    box-shadow: 1px 1px 1px 1px rgba(255, 255, 255, 0.5);
+    
+    font-size: 20px;
+
+}
+
+/* CSS for About Us */
+.aboutUs {
+    padding: 30px 30px 30px 0;
+    height: 300px;
+    
+}
+
+.aboutUs .container {
+    position: relative;
+}
+.aboutUs h2 {
+    text-align: center;
+}
+
+.about-left{
+    margin-left: 30px;
+    position: absolute;
+    height: 250px;
+    left: 0;
+    width: 40%;
+}
+
+.about-left p {
+    margin-top: 20px;
+    padding: 10px;
+    text-align: justify;
+}
+
+.about-left p::first-line{
+    margin-left: 30px;
+}
+
+.about-right {
+    position: absolute;
+    height: 350px;
+    right: 0;
+    width: 56%;
+}
+
+
+.about-right p {
+    margin: 10px 0 10px 10px;
+}
+
+.about-right-3 p span {
+    margin-left: 30px;
+}
+
+.about-right-1 {
+    margin-top: 40px;
+    margin-left: 10px;
+    background-color:lightseagreen;
+    border-radius: 9px;
+    height: 10px;
+    width: 95%;
+    border-bottom: 1px dashed;
+    border-color: white;
+}
+
+
+.about-right-2 {
+    margin-left: 10px;
+    background-color:lightseagreen;
+    border-radius: 9px;
+    height: 10px;
+    width: 90%;
+    border-bottom: 1px dashed;
+    border-color: white;
+}
+
+.about-right-3 {
+    margin-left: 10px;
+    background-color:lightseagreen;
+    border-radius: 9px;
+    height: 10px;
+    width: 85%;
+    border-bottom: 1px dashed;
+    border-color: white;
+}
+
+/* CSS for Our Service */
+.ourService {
+    height: 500px;
+}
+
+.ourService .container {
+    position: relative;
+}
+
+.service-content {
+    position: absolute;
+    margin: 0% auto;
+    width: 100%;
+}
+.ourService h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.box-left {
+    position: absolute;
+    background: #2ecc71;
+    height: 400px;
+    width: 30%;
+    margin-left: 2%;
+    box-sizing: border-box;
+    padding-left: 15px;
+    border-radius: 15px;
+}
+
+
+.box-left ol, .box-center ol, .box-right ol {
+    margin-top: 5px;
+    margin-left: 30px;
+}
+
+.box-left p, .box-center p, .box-right p {
+    margin-top: 10px;
+}
+
+.box-left h3, .box-center h3, .box-right h3 {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+.left-price {
+    position: absolute;
+    text-align: center;
+    bottom: 20%;
+    left: 0;
+    right: 0;
+    margin: 0% auto;
+}
+
+.left-price h3 {
+    padding-top: 0;
+}
+
+.box-center {
+    position: absolute; 
+    background: #e74c3c;
+    height: 400px;
+    width: 30%;
+    margin-left: 1%;
+    left: 0%;
+    right: 0%;
+    margin: 0% auto;
+    border-radius: 15px;
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+
+.box-right {
+    margin-right: 2%;
+    right: 0;
+    position: absolute;
+    display: inline-block;
+    background: #2980b9;
+    height: 400px;
+    width: 30%;
+    margin-left: 1%;
+    border-radius: 15px;
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+
+.btn-buy {
+    position: absolute;
+    display: block;
+    margin: 0% auto;
+    margin-top: 20px;
+    width: 40%;
+    background-color: #3498db;
+    border: none;
+    line-height: 40px;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 0px 1px rgba(255, 255, 255, 0.5);
+    bottom: 10%;
+    left: 0%;
+    right: 0%;
+    margin: 0% auto;
+    cursor: pointer;
+}
+
+.active
+
+
+/* CSS for Contact Us */
+section #contact {
+    margin-top: 100px;
+}
+
+.contactUs {
+    position: relative;
+    padding: 30px;
+    height: 500px;
+    background-color: white;
+}
+
+.contactUs h2 {
+    text-align: center;
+}
+
+.contentContactUs {
+    position: relative;
+    width: 100%;
+    height: 400px;
+}
+
+.contact-left {
+    position: absolute;
+    height: 400px;
+    background-color: aqua;
+    box-sizing: border-box;
+    width: 59%;
+    left: 0%;
+    background: url(img/office/contactus.png);
+    background-size: cover;
+}
+
+.contact-right{
+    position: absolute;
+    height: 400px;
+    box-sizing: border-box;
+    width: 39%;
+    right: 0%;
+}
+
+.contact-right form {
+    margin: 0 auto;
+    position: relative;
+}
+
+.contact-right form input {
+    position: relative;
+    display: block;
+    width: 98%;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: none;
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.2);
+    padding-left: 20px;
+    height: 40px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.contact-right form input:active{
+    border: #3498db; 
+}
+
+.contact-right form input::selection{
+    border: red;
+}
+
+.contact-right form input[type=email]{
+    margin-bottom: 20px;
+}
+
+.contact-right form textarea {
+    margin-top: 40px;
+    display: block;
+    margin: 0 auto;
+    border: none;
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.2);
+    padding-top: 10px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    width: 98%;
+    height: 150px;
+    border-radius: 5px;
+}
+
+.btn-contact {
+    display: block;
+    margin: 0% auto;
+    margin-top: 20px;
+    width: 40%;
+    background-color: #3498db;
+    border: none;
+    line-height: 40px;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 0px 1px rgba(255, 255, 255, 0.5);
+
+}
+
+/* CSS for Footer */
+
+footer {
+    position: relative;
+    display: block;
+    line-height: 50px;
+    background-color: #34495e;
+    position: relative;
+    height: 230px;
+    bottom: 0%;
+}
+footer .container {
+    
+}
+
+.left {
+
+    width: 33%;
+    height: 150px;   
+    color: white;
+    position: absolute;
+    margin-right: 5px;
+    box-sizing: border-box;
+}
+
+.left-head, .center-head, .right-head {
+    display: block;
+    font-size: 20px;
+    text-align: center;
+}
+
+.left-body {
+    padding: 0% 10px;
+    position: relative;
+}
+
+.left-body a {
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+
+}
+
+.left-body a img{
+    padding-top: 10px;
+    margin-right: 10px;
+}
+
+.left-body .addressOffice {
+    position: absolute;
+    top: 10px;;
+    margin-left: 35px;
+    line-height: 25px;
+}
+
+.left-body .phoneOffice {
+    position: absolute;
+    top: 55px;
+    margin-left: 35px;
+}
+
+.center {
+    background-color: lightseagreen;
+    width: 33%;
+    height: 150px;
+    color: white;
+    float: left;
+    margin-right: 5px;
+    box-sizing: border-box;
+}
+
+.right {
+    width: 33%;
+    height: 150px;
+    color: white;
+    display: inline-block;
+    position: absolute;
+    right: 0%;
+
+}
+
+.right-body {
+    text-align: center;
+}
+
+.right-body a img {
+    padding-top: 10px;
+    margin: 0 2px;
+}
+
+.right-body a img, .left-body a img {
+    height: 8%;
+    width: 8%;
+}
+
+.copyright{
+    position: relative;
+    color: white;
+    bottom: -160px;
+
+}
+
+.copyright p {
+    
+    text-align: center;
+    line-height: 30px;
+}
+
+.right-body a {
+    text-align: center;
+}
+
+.hidden {
+    display: none
+}
+
+/* Akhir Desktop Version */
